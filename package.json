@@ -1,0 +1,58 @@
+{
+  "_from": "git+https://github.com/OpenWebCAD/node-occ-csg-editor-display.git#0.1.11",
+  "_id": "node-occ-csg-editor-display@0.1.11",
+  "_inBundle": false,
+  "_integrity": "sha1-vSinALAtekDytrD4DmV5SGX3wPo=",
+  "_location": "/node-occ-csg-editor-display",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "node-occ-csg-editor-display@git+https://github.com/OpenWebCAD/node-occ-csg-editor-display.git#0.1.11",
+    "name": "node-occ-csg-editor-display",
+    "escapedName": "node-occ-csg-editor-display",
+    "rawSpec": "git+https://github.com/OpenWebCAD/node-occ-csg-editor-display.git#0.1.11",
+    "saveSpec": "git+https://github.com/OpenWebCAD/node-occ-csg-editor-display.git#0.1.11",
+    "fetchSpec": "https://github.com/OpenWebCAD/node-occ-csg-editor-display.git",
+    "gitCommittish": "0.1.11"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/OpenWebCAD/node-occ-csg-editor-display.git#833b325cda0487c1277a1d733cba1f1b37938381",
+  "_spec": "node-occ-csg-editor-display@git+https://github.com/OpenWebCAD/node-occ-csg-editor-display.git#0.1.11",
+  "_where": "C:\\Users\\anmarion\\projects\\POCs\\cartoonline\\frontend_server",
+  "author": {
+    "name": "Etienne Rossignon"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenWebCAD/node-occ-csg-editor-display/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "node-occ": "^0.2.1",
+    "node-occ-csg-editor": "git+https://github.com/OpenWebCAD/node-occ-csg-editor.git#0.1.10",
+    "underscore": "^1.8.3"
+  },
+  "deprecated": false,
+  "description": ".",
+  "devDependencies": {
+    "async": "^2.5.0",
+    "b2a": "^1.0.7",
+    "mocha": "^3.5.0",
+    "should": "^13.0.1"
+  },
+  "homepage": "https://github.com/OpenWebCAD/node-occ-csg-editor-display#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "node-occ-csg-editor-display",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenWebCAD/node-occ-csg-editor-display.git"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "version": "0.1.11"
+}
