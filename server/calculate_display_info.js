@@ -61,13 +61,15 @@ function buildResponse(cacheBefore, data, logs) {
 
 
     response.solids = data.map(x => {
-        return {
-            '_id': x.shape._id,
-            'uuid': x.shape.uuid,
-            'name': x.shape.name,
-            'area': x.shape.area,
-            'volume': x.shape.volume
-        };
+        if ( x.shape ) {
+            return {
+                '_id': x.shape._id,
+                'uuid': x.shape.uuid,
+                'name': x.shape.name,
+                'area': x.shape.area,
+                'volume': x.shape.volume
+            };
+        }
     });
 
     return response;
